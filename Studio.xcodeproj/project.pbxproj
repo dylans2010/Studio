@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC1843032FE14D76000D55F6 /* Studio Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FC1843022FE14D76000D55F6 /* Studio Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC1842EF2FE14D76000D55F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1842C92FE14D75000D55F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC1842D02FE14D75000D55F6;
+			remoteInfo = Studio;
+		};
+		FC1842F92FE14D76000D55F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1842C92FE14D75000D55F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC1842D02FE14D75000D55F6;
+			remoteInfo = Studio;
+		};
+		FC1843042FE14D76000D55F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1842C92FE14D75000D55F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC1843012FE14D76000D55F6;
+			remoteInfo = "Studio Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC1843212FE14D76000D55F6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				FC1843032FE14D76000D55F6 /* Studio Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC1842D12FE14D75000D55F6 /* Studio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1842EE2FE14D76000D55F6 /* StudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1842F82FE14D76000D55F6 /* StudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1843022FE14D76000D55F6 /* Studio Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Studio Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FC18431C2FE14D76000D55F6 /* Exceptions for "Studio" folder in "Studio" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FC1842D02FE14D75000D55F6 /* Studio */;
+		};
+		FC1843202FE14D76000D55F6 /* Exceptions for "Studio Extension" folder in "Studio Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FC1843012FE14D76000D55F6 /* Studio Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FC1842D32FE14D75000D55F6 /* Studio */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FC18431C2FE14D76000D55F6 /* Exceptions for "Studio" folder in "Studio" target */,
+			);
+			path = Studio;
+			sourceTree = "<group>";
+		};
+		FC1842F12FE14D76000D55F6 /* StudioTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StudioTests;
+			sourceTree = "<group>";
+		};
+		FC1842FB2FE14D76000D55F6 /* StudioUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StudioUITests;
+			sourceTree = "<group>";
+		};
+		FC1843062FE14D76000D55F6 /* Studio Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FC1843202FE14D76000D55F6 /* Exceptions for "Studio Extension" folder in "Studio Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "Studio Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC1842CE2FE14D75000D55F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		FC1842EB2FE14D76000D55F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		FC1842F52FE14D76000D55F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		FC1842FF2FE14D76000D55F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC1842C82FE14D75000D55F6 = {
+			isa = PBXGroup;
+			children = (
+				FC1842D32FE14D75000D55F6 /* Studio */,
+				FC1842F12FE14D76000D55F6 /* StudioTests */,
+				FC1842FB2FE14D76000D55F6 /* StudioUITests */,
+				FC1843062FE14D76000D55F6 /* Studio Extension */,
+				FC1842D22FE14D75000D55F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC1842D22FE14D75000D55F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC1842D12FE14D75000D55F6 /* Studio.app */,
+				FC1842EE2FE14D76000D55F6 /* StudioTests.xctest */,
+				FC1842F82FE14D76000D55F6 /* StudioUITests.xctest */,
+				FC1843022FE14D76000D55F6 /* Studio Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC1842D02FE14D75000D55F6 /* Studio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1843222FE14D76000D55F6 /* Build configuration list for PBXNativeTarget "Studio" */;
+			buildPhases = (
+				FC1842CD2FE14D75000D55F6 /* Sources */,
+				FC1842CE2FE14D75000D55F6 /* Frameworks */,
+				FC1842CF2FE14D75000D55F6 /* Resources */,
+				FC1843212FE14D76000D55F6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1843052FE14D76000D55F6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FC1842D32FE14D75000D55F6 /* Studio */,
+			);
+			name = Studio;
+			productName = Studio;
+			productReference = FC1842D12FE14D75000D55F6 /* Studio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC1842ED2FE14D76000D55F6 /* StudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1843272FE14D76000D55F6 /* Build configuration list for PBXNativeTarget "StudioTests" */;
+			buildPhases = (
+				FC1842EA2FE14D76000D55F6 /* Sources */,
+				FC1842EB2FE14D76000D55F6 /* Frameworks */,
+				FC1842EC2FE14D76000D55F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1842F02FE14D76000D55F6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FC1842F12FE14D76000D55F6 /* StudioTests */,
+			);
+			name = StudioTests;
+			productName = StudioTests;
+			productReference = FC1842EE2FE14D76000D55F6 /* StudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC1842F72FE14D76000D55F6 /* StudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC18432A2FE14D76000D55F6 /* Build configuration list for PBXNativeTarget "StudioUITests" */;
+			buildPhases = (
+				FC1842F42FE14D76000D55F6 /* Sources */,
+				FC1842F52FE14D76000D55F6 /* Frameworks */,
+				FC1842F62FE14D76000D55F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1842FA2FE14D76000D55F6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FC1842FB2FE14D76000D55F6 /* StudioUITests */,
+			);
+			name = StudioUITests;
+			productName = StudioUITests;
+			productReference = FC1842F82FE14D76000D55F6 /* StudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FC1843012FE14D76000D55F6 /* Studio Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC18431D2FE14D76000D55F6 /* Build configuration list for PBXNativeTarget "Studio Extension" */;
+			buildPhases = (
+				FC1842FE2FE14D76000D55F6 /* Sources */,
+				FC1842FF2FE14D76000D55F6 /* Frameworks */,
+				FC1843002FE14D76000D55F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				FC1843062FE14D76000D55F6 /* Studio Extension */,
+			);
+			name = "Studio Extension";
+			productName = "Studio Extension";
+			productReference = FC1843022FE14D76000D55F6 /* Studio Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC1842C92FE14D75000D55F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					FC1842D02FE14D75000D55F6 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					FC1842ED2FE14D76000D55F6 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = FC1842D02FE14D75000D55F6;
+					};
+					FC1842F72FE14D76000D55F6 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = FC1842D02FE14D75000D55F6;
+					};
+					FC1843012FE14D76000D55F6 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = FC1842CC2FE14D75000D55F6 /* Build configuration list for PBXProject "Studio" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC1842C82FE14D75000D55F6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FC1842D22FE14D75000D55F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC1842D02FE14D75000D55F6 /* Studio */,
+				FC1842ED2FE14D76000D55F6 /* StudioTests */,
+				FC1842F72FE14D76000D55F6 /* StudioUITests */,
+				FC1843012FE14D76000D55F6 /* Studio Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC1842CF2FE14D75000D55F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		FC1842EC2FE14D76000D55F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		FC1842F62FE14D76000D55F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		FC1843002FE14D76000D55F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC1842CD2FE14D75000D55F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		FC1842EA2FE14D76000D55F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		FC1842F42FE14D76000D55F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		FC1842FE2FE14D76000D55F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC1842F02FE14D76000D55F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC1842D02FE14D75000D55F6 /* Studio */;
+			targetProxy = FC1842EF2FE14D76000D55F6 /* PBXContainerItemProxy */;
+		};
+		FC1842FA2FE14D76000D55F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC1842D02FE14D75000D55F6 /* Studio */;
+			targetProxy = FC1842F92FE14D76000D55F6 /* PBXContainerItemProxy */;
+		};
+		FC1843052FE14D76000D55F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC1843012FE14D76000D55F6 /* Studio Extension */;
+			targetProxy = FC1843042FE14D76000D55F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC18431E2FE14D76000D55F6 /* Debug configuration for PBXNativeTarget "Studio Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z586KMX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Studio Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Studio Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylans2010.Studio.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC18431F2FE14D76000D55F6 /* Release configuration for PBXNativeTarget "Studio Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z586KMX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Studio Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Studio Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylans2010.Studio.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC1843232FE14D76000D55F6 /* Debug configuration for PBXNativeTarget "Studio" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z586KMX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Studio/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Studio;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylans2010.Studio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC1843242FE14D76000D55F6 /* Release configuration for PBXNativeTarget "Studio" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z586KMX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Studio/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Studio;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylans2010.Studio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC1843252FE14D76000D55F6 /* Debug configuration for PBXProject "Studio" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3Z586KMX37;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC1843262FE14D76000D55F6 /* Release configuration for PBXProject "Studio" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3Z586KMX37;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC1843282FE14D76000D55F6 /* Debug configuration for PBXNativeTarget "StudioTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z586KMX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylans2010.StudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Studio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Studio";
+			};
+			name = Debug;
+		};
+		FC1843292FE14D76000D55F6 /* Release configuration for PBXNativeTarget "StudioTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z586KMX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylans2010.StudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Studio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Studio";
+			};
+			name = Release;
+		};
+		FC18432B2FE14D76000D55F6 /* Debug configuration for PBXNativeTarget "StudioUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z586KMX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylans2010.StudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Studio;
+			};
+			name = Debug;
+		};
+		FC18432C2FE14D76000D55F6 /* Release configuration for PBXNativeTarget "StudioUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z586KMX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylans2010.StudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Studio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC1842CC2FE14D75000D55F6 /* Build configuration list for PBXProject "Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1843252FE14D76000D55F6 /* Debug configuration for PBXProject "Studio" */,
+				FC1843262FE14D76000D55F6 /* Release configuration for PBXProject "Studio" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		FC18431D2FE14D76000D55F6 /* Build configuration list for PBXNativeTarget "Studio Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC18431E2FE14D76000D55F6 /* Debug configuration for PBXNativeTarget "Studio Extension" */,
+				FC18431F2FE14D76000D55F6 /* Release configuration for PBXNativeTarget "Studio Extension" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		FC1843222FE14D76000D55F6 /* Build configuration list for PBXNativeTarget "Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1843232FE14D76000D55F6 /* Debug configuration for PBXNativeTarget "Studio" */,
+				FC1843242FE14D76000D55F6 /* Release configuration for PBXNativeTarget "Studio" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		FC1843272FE14D76000D55F6 /* Build configuration list for PBXNativeTarget "StudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1843282FE14D76000D55F6 /* Debug configuration for PBXNativeTarget "StudioTests" */,
+				FC1843292FE14D76000D55F6 /* Release configuration for PBXNativeTarget "StudioTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		FC18432A2FE14D76000D55F6 /* Build configuration list for PBXNativeTarget "StudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC18432B2FE14D76000D55F6 /* Debug configuration for PBXNativeTarget "StudioUITests" */,
+				FC18432C2FE14D76000D55F6 /* Release configuration for PBXNativeTarget "StudioUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC1842C92FE14D75000D55F6 /* Project object */;
+	validationLevel = 1;
+}
