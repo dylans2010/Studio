@@ -34,6 +34,9 @@
 		ABE3B70222404EBC9D6B0F8F /* CommandBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E534EF6A01F95BA93462C8 /* CommandBar.swift */; };
 		8DD160485FF4C07122FF3E8A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94915E244AFC6D35F1101F8 /* MainView.swift */; };
 		78B26539188A9A3369AB2FC1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10162AD58EB145CDD13113A2 /* SettingsView.swift */; };
+		A10000000000000000000001 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000004 /* SafariWebExtensionHandler.swift */; };
+		A10000000000000000000002 /* StudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000005 /* StudioTests.swift */; };
+		A10000000000000000000003 /* StudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000006 /* StudioUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +106,9 @@
 		73E534EF6A01F95BA93462C8 /* CommandBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CommandBar.swift"; sourceTree = "<group>"; };
 		A94915E244AFC6D35F1101F8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainView.swift"; sourceTree = "<group>"; };
 		10162AD58EB145CDD13113A2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		A10000000000000000000004 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Studio Extension/SafariWebExtensionHandler.swift"; sourceTree = "<group>"; };
+		A10000000000000000000005 /* StudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudioTests/StudioTests.swift"; sourceTree = "<group>"; };
+		A10000000000000000000006 /* StudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudioUITests/StudioUITests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -211,7 +217,7 @@
 			children = (
 				BE64FAC009F9A9994025F9F2 /* StudioApp.swift */,
 			);
-			path = "App";
+			path = "Studio/App";
 			sourceTree = "<group>";
 		};
 		A3A749EBA86B7A4805844741 /* AI */ = {
@@ -221,7 +227,7 @@
 				D73D24FB005A8D30AD40922B /* AIContext.swift */,
 				FEF732239938727A0C62FC4A /* ModelFetching.swift */,
 			);
-			path = "AI";
+			path = "Studio/AI";
 			sourceTree = "<group>";
 		};
 		23DDF7175A78A710B97CC540 /* Core */ = {
@@ -229,7 +235,7 @@
 			children = (
 				B3904EFDB27723742188FF49 /* UnifiedContent.swift */,
 			);
-			path = "Core";
+			path = "Studio/Core";
 			sourceTree = "<group>";
 		};
 		C0866AC628DE5B003258E6A2 /* Features */ = {
@@ -242,7 +248,7 @@
 				F504872EE6BE80470667E007 /* Presentation */,
 				FB98265A7EF21664EDC3E018 /* Translate */,
 			);
-			path = "Features";
+			path = "Studio/Features";
 			sourceTree = "<group>";
 		};
 		FA98DE8737ADFA5D5D2EC28C /* Chat */ = {
@@ -312,7 +318,7 @@
 				A94915E244AFC6D35F1101F8 /* MainView.swift */,
 				10162AD58EB145CDD13113A2 /* SettingsView.swift */,
 			);
-			path = "Views";
+			path = "Studio/Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -506,16 +512,19 @@
 		FC1842EA2FE14D76000D55F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				A10000000000000000000002 /* StudioTests.swift in Sources */,
 			);
 		};
 		FC1842F42FE14D76000D55F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				A10000000000000000000003 /* StudioUITests.swift in Sources */,
 			);
 		};
 		FC1842FE2FE14D76000D55F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				A10000000000000000000001 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
