@@ -1,19 +1,24 @@
-//
-//  StudioTests.swift
-//  StudioTests
-//
-//  Created by Dylan S on 6/16/26.
-//
-
-import Testing
+import XCTest
 @testable import Studio
 
-struct StudioTests {
+final class StudioTests: XCTestCase {
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
-        // Swift Testing Documentation
-        // https://developer.apple.com/documentation/testing
+    func testAIServiceSummarize() async throws {
+        let service = AIService.shared
+        let config = AIConfiguration(provider: .openai, apiKey: "test", baseURL: "http://localhost", selectedModel: AIModel(id: "gpt-4", name: "GPT-4", provider: .openai))
+
+        let text = "Apple Foundation Models provide powerful on-device AI capabilities. This application leverages them for productivity."
+        // We can't actually call the API in tests without mocking URLSession, but we can verify the prompt generation logic if it were exposed.
+        // For now, we test the NaturalLanguage parts that are local.
+
+        let summary = try await service.summarize(text, config: config)
+        XCTAssertFalse(summary.isEmpty)
     }
 
+    func testUnifiedContentConversion() {
+        let note = Note(title: "Test Note", blocks: [NoteBlock(type: .text, content: "Hello World")])
+        let doc = UnifiedContentConverter.convertToDocument(from: note)
+        XCTAssertTrue(doc.contains("# Test Note"))
+        XCTAssertTrue(doc.contains("Hello World"))
+    }
 }
