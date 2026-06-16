@@ -1,5 +1,12 @@
 import Foundation
 
+struct AIConfiguration: Codable {
+    var provider: AIProvider = .openai
+    var apiKey: String = ""
+    var baseURL: String = ""
+    var selectedModel: AIModel? = nil
+}
+
 class AIService {
     static let shared = AIService()
 
