@@ -13,7 +13,7 @@ struct DocumentView: View {
 
                 Spacer()
 
-                Button(action: viewModel.assistWriting) {
+                Button(action: { viewModel.assistWriting(with: aiContext.config) }) {
                     Label("AI Assist", systemImage: "wand.and.stars")
                 }
                 .buttonStyle(.bordered)

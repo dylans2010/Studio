@@ -6,9 +6,9 @@ class DocumentViewModel: ObservableObject {
     @Published var title: String = "Untitled Document"
     @Published var isSaving: Bool = false
 
-    func assistWriting() {
+    func assistWriting(with config: AIConfiguration) {
         Task {
-            let suggestion = try? await AIService.shared.rewrite(content, tone: "Professional")
+            let suggestion = try? await AIService.shared.rewrite(content, tone: "Professional", config: config)
             if let suggestion = suggestion {
                 await MainActor.run {
                     self.content = suggestion
