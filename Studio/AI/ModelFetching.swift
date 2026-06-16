@@ -24,6 +24,13 @@ struct AIModel: Identifiable, Codable {
     var provider: AIProvider
 }
 
+struct AIConfiguration: Codable {
+    var provider: AIProvider = .openai
+    var apiKey: String = ""
+    var baseURL: String = ""
+    var selectedModel: AIModel? = nil
+}
+
 struct ModelFetching {
     static func fetchModels(for provider: AIProvider, apiKey: String, baseURL: String? = nil) async throws -> [AIModel] {
         let base = (baseURL ?? provider.defaultBaseURL)
